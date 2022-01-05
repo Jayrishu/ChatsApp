@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color: cyan;
+}
+#whatsapp_logo{
+    height: 10%;
+    width: 10%;
+}
+.form_group{
+    background-color: white;
+    border-radius: 20px;
+    float: none;
+    padding: 10px;
+}
+#image, #logout{
+    height: 100px;
+    width: 100px;
+    text-align: right;
+}
