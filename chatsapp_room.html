@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Chatsapp</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <button onclick="logOut" id="logout"><img src="logout.jpeg" id="image"></button>
+    <center>
+    <h1 class="btn-success" style="width:30%;">ChatsApp</h1>
+    <img src="whatsapppp.png" id="whatsapp_logo">
+    <h2 id="user_name"></h2>
+    <h3 class="btn-info" style="width:30%;">Choose a Room</h3>
+    <br>
+    <br>
+    <div class="form_group col-lg-4 col-sm-6 col-xs-11">
+        <h3>Create A Room</h3>
+    <input type="text" class="form-control" placeholder="Enter Room Name" id="roomName">
+    <br>
+    <br>
+    <button onclick="addRoom" class="btn btn-success" >Create</button>
+    </div>
+    <br>
+    <br>
+    <h3>Join A Room</h3>
+    <div id="output"></div>
+     </center>
+     <script src="chatsapp_room.js"></script>
+</body>
+</html>
