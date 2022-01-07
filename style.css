@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: cyan;
+}
+#whatsapp_logo{
+    height: 10%;
+    width: 10%;
+}
+.form_group{
+    background-color: white;
+    border-radius: 20px;
+    float: none;
+    padding: 10px;
+}
+#image {
+    height: 100px;
+    width: 100px;
+}
+#logout{
+   float: right;
+   height: 100px;
+    width: 100px;
+}
+#output
+{
+	padding: 10px; 
+    width:80%;
+    background: rgba(255,255,255,0.8);
+    border-radius: 15px;
+}
